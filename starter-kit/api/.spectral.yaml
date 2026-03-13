@@ -1,0 +1,9 @@
+# Правила линтинга API (Spectral)
+# Запуск: npx @stoplight/spectral-cli lint api/openapi.yaml
+
+extends: spectral:oas
+
+rules:
+  operation-operationId: error
+  operation-description: warn
+  oas3-valid-schema-example: error

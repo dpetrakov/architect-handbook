@@ -1,0 +1,17 @@
+%% C4 Container Diagram — [Название системы]
+%% Замените содержимое на актуальное для вашего проекта
+
+graph TD
+    User["Пользователь"] --> UI["Фронтенд<br>(React/Vue)"]
+    UI --> API["API Gateway"]
+    API --> Svc1["Сервис A<br>(Java/Go)"]
+    API --> Svc2["Сервис B<br>(Java/Go)"]
+    Svc1 --> DB1[("PostgreSQL")]
+    Svc2 --> DB2[("PostgreSQL")]
+    Svc1 --> MQ["Брокер сообщений<br>(RabbitMQ)"]
+    MQ --> Svc2
+
+    style API fill:#3B2066,color:#fff
+    style Svc1 fill:#3B2066,color:#fff
+    style Svc2 fill:#3B2066,color:#fff
+    style MQ fill:#E8772E,color:#fff

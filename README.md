@@ -1,5 +1,10 @@
 # Architect Handbook
 
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![GitHub last commit](https://img.shields.io/github/last-commit/dpetrakov/architect-handbook)](https://github.com/dpetrakov/architect-handbook/commits/main)
+[![GitHub issues](https://img.shields.io/github/issues/dpetrakov/architect-handbook)](https://github.com/dpetrakov/architect-handbook/issues)
+[![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md)
+
 **Ru** | [En](i18n/en/README.md)
 
 Методика работы архитекторов: роли, процесс, артефакты, практики, шаблоны.
@@ -48,6 +53,15 @@
 - [Risk Register](templates/risk-register.md) / [Tech Debt Register](templates/tech-debt-register.md) — реестры
 - ...и [другие](templates/)
 
+## Starter Kit
+
+Каталог [`starter-kit/`](starter-kit/) — готовая структура каталогов для нового проекта. Скопируйте в репозиторий и начните работать:
+
+- Архитектурная документация (arc42, C4-диаграммы)
+- ADR (шаблон + пример)
+- Чеклисты качества (NFR, fitness functions, security, AI policy)
+- API-спецификация (OpenAPI + правила линтинга)
+
 ## Исследование
 
 В каталоге [`research/`](research/) — результаты исследования state-of-the-art архитектурных практик 2024-2026, на основе которого построена методика.
@@ -82,4 +96,4 @@ Contributions welcome! См. [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Автор
 
-**Дмитрий Петраков** — [GitHub](https://github.com/dpetrakov)
+**Дмитрий Петраков** — [GitHub](https://github.com/dpetrakov) | [LinkedIn](https://www.linkedin.com/in/dmitriy-petrakov-43a97096/) | [Сайт](https://dimlight.online/) | [Habr](https://habr.com/ru/users/dpetrakov/)
